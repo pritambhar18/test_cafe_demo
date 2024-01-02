@@ -1,0 +1,372 @@
+[
+  {
+    "description": "Login Page",
+    "elements": [
+      {
+        "id": "ScenarioLogin to Admin and ",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Login to Admin and",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\Add_Candidare_Test.js:1:0"
+            },
+            "name": "Login to Admin and ",
+            "result": {
+              "duration": 21699,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Login to Admin and </a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login Page",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "120.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "11"
+      },
+      "reportTime": "2024-01-02T06:38:34.867Z",
+      "startTime": "2024-01-02T06:37:37.837Z"
+    },
+    "name": "Login Page",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@admin"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      }
+    ],
+    "uri": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\Add_Candidare_Test.js:1"
+  },
+  {
+    "description": "Home Page",
+    "elements": [
+      {
+        "id": "ScenarioLoading Home Page",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Loading Home Page",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\HomeTest.js:1:0"
+            },
+            "name": "Loading Home Page",
+            "result": {
+              "duration": 8188,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Loading Home Page</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioSuccessfully Logout",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Successfully Logout",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\HomeTest.js:1:0"
+            },
+            "name": "Successfully Logout",
+            "result": {
+              "duration": 15179,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Successfully Logout</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Home Page",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "120.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "11"
+      },
+      "reportTime": "2024-01-02T06:38:34.867Z",
+      "startTime": "2024-01-02T06:37:37.837Z"
+    },
+    "name": "Home Page",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@logout"
+      },
+      {
+        "line": 0,
+        "name": "@loading"
+      },
+      {
+        "line": 0,
+        "name": "@home"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      }
+    ],
+    "uri": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\HomeTest.js:1"
+  },
+  {
+    "description": "Login Page",
+    "elements": [
+      {
+        "id": "ScenarioLoading login Page",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Loading login Page",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\LoginTest.js:1:0"
+            },
+            "name": "Loading login Page",
+            "result": {
+              "duration": 785,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Loading login Page</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioForm -Successfully Login",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Form -Successfully Login",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\LoginTest.js:1:0"
+            },
+            "name": "Form -Successfully Login",
+            "result": {
+              "duration": 3693,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Form -Successfully Login</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioForm -UnSuccessfully Login with small password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Form -UnSuccessfully Login with small password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\LoginTest.js:1:0"
+            },
+            "name": "Form -UnSuccessfully Login with small password",
+            "result": {
+              "duration": 2676,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Form -UnSuccessfully Login with small password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioForm -UnSuccessfully Login with wrong credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Form -UnSuccessfully Login with wrong credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\LoginTest.js:1:0"
+            },
+            "name": "Form -UnSuccessfully Login with wrong credentials",
+            "result": {
+              "duration": 3126,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Form -UnSuccessfully Login with wrong credentials</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login Page",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "120.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "11"
+      },
+      "reportTime": "2024-01-02T06:38:34.867Z",
+      "startTime": "2024-01-02T06:37:37.837Z"
+    },
+    "name": "Login Page",
+    "runInfo": {
+      "endTime": "2024-01-02T06:38:34.866Z",
+      "passed": 7,
+      "startTime": "2024-01-02T06:37:37.837Z",
+      "testCount": 7,
+      "userAgents": [
+        "Chrome 120.0.0.0 / Windows 11"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@form"
+      },
+      {
+        "line": 0,
+        "name": "@-unsuccessfully"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@wrong"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      },
+      {
+        "line": 0,
+        "name": "@small"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@-successfully"
+      },
+      {
+        "line": 0,
+        "name": "@loading"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      }
+    ],
+    "uri": "D:\\Test_Cafe\\test_cafe_demo\\KaayuAdminAuto\\Tests\\LoginTest.js:1"
+  }
+]
