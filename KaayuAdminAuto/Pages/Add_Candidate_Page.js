@@ -19,7 +19,7 @@ class Add_Candidate_Page{
     }
     
     async Click_Candidates(){
-        await t.click(this.click_candidates);
+        await t.click(this.click_candidates); 
     } 
 
    /* async Add_Candidate_Button(){
