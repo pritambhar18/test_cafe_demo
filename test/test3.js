@@ -15,7 +15,6 @@ test('Login with valid credentials', async t => {
     await t.typeText(passwordInput, '12345678');
     await t.click(submitButton);
     await t.wait(5000);
-
     await t.click(candiddateElement);
  
 
