@@ -1,0 +1,49 @@
+[
+    
+    {
+        "firstname": "Test 11",
+        "lastname": "Last name 1",
+        "ph_no":"12234560209",
+        "email":"test212@yopmail.com",
+        "country": "India",
+        "state": "West Bengal",
+        "city": "Kolkata",
+        "locality":"Dn 51 , Merline Infinite building",
+        "expectedResult":"Successfully created candidate.",
+        "comapny_name":"Test company name",
+        "job_title":"Test job title",
+        "employment_type":"Full Time"
+    },
+    {
+        "firstname": "Test 11",
+        "lastname": "Last name 1",
+        "ph_no":"12923230209",
+        "email":"test223@yopmail.com",
+        "country": "India",
+        "state": "West Bengal",
+        "city": "Kolkata",
+        "locality":"Dn 51 , Merline Infinite building",
+        "expectedResult":"Successfully created candidate.",
+        "comapny_name":"Test company name",
+        "job_title":"Test job title",
+        "employment_type":"Full Time"
+    },
+
+    {
+        "firstname": "Test 11",
+        "lastname": "Last name 1",
+        "ph_no":"1234920209",
+        "email":"test1223@yopmail.com",
+        "country": "India",
+        "state": "West Bengal",
+        "city": "Kolkata",
+        "locality":"Dn 51 , Merline Infinite building",
+        "expectedResult":"Successfully created candidate.",
+        "comapny_name":"Test company name",
+        "job_title":"Test job title",
+        "employment_type":"Full Time"
+    }
+
+
+    
+]
