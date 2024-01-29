@@ -2,6 +2,7 @@ import { ClientFunction, t, Selector } from 'testcafe';
 import add_candidate_Page from '../Pages/add_candidate_Page';
 import HomePage from '../Pages/HomePage';
 import LoginPage from '../Pages/LoginPage';
+import { path } from 'pdfkit';
 
 const dataset = require('../../data/addcandidate_personal_info.json')
 const url = 'http://15.156.242.8/login'
@@ -42,6 +43,11 @@ dataset.forEach(data => {
         await t.typeText('body > span > span > span.select2-search.select2-search--dropdown > input','India');
         await t.click(Selector('.select2-results__options').withText('India'));*/
         add_candidate_Page.SaveNext_Button();
+        await t.takeScreenshot({
+          path: `Test_Screensot ${data.expectedResult}.png`,
+          fullPage:true
+
+        });
         await t.expect(add_candidate_Page.data_created.innerText).contains(data.expectedResult);
 
         // work history section 

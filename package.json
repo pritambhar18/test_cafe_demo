@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:Reports": "testcafe chrome KaayuAdminAuto/Tests/*.js --reporter cucumber-json --reporter-json-folder=reports/html_reports/json_reports",
-    "createReport": "node report-generator.js"
+    "createReport": "node report-generator.js",
+    "test:dataDriven": "testcafe chrome data_driven_test/*.js --video artifacts/videos"
   },
   "keywords": [],
   "author": "",

@@ -93,7 +93,7 @@ class Add_Candidate_Page{
     async SaveNext_Button(){
         await t.click(this.savenextbtn);
     } 
-
+    
     // work history section 
     async Click_Workhistory(){
         await t.click(this.click_workhistory);
