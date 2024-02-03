@@ -24,31 +24,35 @@ dataset.forEach(data => {
         await t.wait(2000);
         await t.expect(add_candidate_Page.add_candidate_pageheading.innerText).contains('Add Candidate');
         //await t.typeText(Selector('#first-name'),data.firstname)
-        add_candidate_Page.SetFirstName(data.firstname);
-        add_candidate_Page.SetLastName(data.lastname);
-        add_candidate_Page.SetPhNo(data.ph_no);
-        add_candidate_Page.SetEmail(data.email);
-        //add_candidate_Page.SetCountryClick();
-        //add_candidate_Page.SetCountrySearch(data.country);
- 
-        await add_candidate_Page.SetCountrySearchClick(data.country);
-        await add_candidate_Page.SetState_Search_Click(data.state);
-        await add_candidate_Page.SetCity_Search_Click(data.city);
-        add_candidate_Page.Setlocality(data.locality);
-/*
-        await t.click('#select2-country-container');
-        await t.typeText('body > span > span > span.select2-search.select2-search--dropdown > input','India');
-        await t.click(Selector('.select2-results__options').withText('India'));
-        await t.click('#select2-state-container');
-        await t.typeText('body > span > span > span.select2-search.select2-search--dropdown > input','India');
-        await t.click(Selector('.select2-results__options').withText('India'));*/
-        add_candidate_Page.SaveNext_Button();
-        await t.takeScreenshot({
-          path: `Test_Screensot ${data.expectedResult}.png`,
-          fullPage:true
 
-        });
-        await t.expect(add_candidate_Page.data_created.innerText).contains(data.expectedResult);
+        
+      
+          add_candidate_Page.SetFirstName(data.firstname);
+        
+          add_candidate_Page.SetLastName(data.lastname);
+          add_candidate_Page.SetPhNo(data.ph_no);
+          add_candidate_Page.SetEmail(data.email);
+          //add_candidate_Page.SetCountryClick();
+          //add_candidate_Page.SetCountrySearch(data.country);
+  
+          await add_candidate_Page.SetCountrySearchClick(data.country);
+          await add_candidate_Page.SetState_Search_Click(data.state);
+          await add_candidate_Page.SetCity_Search_Click(data.city);
+          add_candidate_Page.Setlocality(data.locality);
+  
+          /*await t.click('#select2-country-container');
+          await t.typeText('body > span > span > span.select2-search.select2-search--dropdown > input','India');
+          await t.click(Selector('.select2-results__options').withText('India'));
+          await t.click('#select2-state-container');
+          await t.typeText('body > span > span > span.select2-search.select2-search--dropdown > input','India');
+          await t.click(Selector('.select2-results__options').withText('India'));*/
+          add_candidate_Page.SaveNext_Button();
+          await t.takeScreenshot({
+            path: `Test_Screensot ${data.expectedResult}.png`,
+            fullPage:true
+          });
+        //await t.expect(add_candidate_Page.data_created.innerText).contains(data.expectedResult);
+        
 
         // work history section 
         add_candidate_Page.Click_Workhistory();

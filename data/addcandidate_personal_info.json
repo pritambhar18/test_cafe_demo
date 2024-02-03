@@ -1,5 +1,14 @@
 [
-    
+    {
+        "username": "Test MMT",
+        "Password": "Password MMT",
+        "expectedResult":"Invalid login credentials. You have 4 attempts remaining before your IP is temporarily blocked. Please check your username and password."
+    },
+    {
+        "username": "pritam123",
+        "Password": "12345678",
+        "expectedResult":"Dashboard"
+    },
     {
         "firstname": "Test 11",
         "lastname": "Last name 1",
